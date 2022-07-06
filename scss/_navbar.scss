@@ -1,0 +1,14 @@
+#botonera{
+	background-color:$colorNav;
+	opacity: 0.9;
+	font-family:$secondariFonts;
+	a{
+		color:$colorA;
+		font-family:$secondariFonts;
+		font-size:$textLi;
+		margin-left: 2rem;
+		&:hover{
+			color:$colorWhite
+		}	
+	}
+}

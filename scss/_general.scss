@@ -1,0 +1,30 @@
+body{
+	.bg-body{
+	background-color:$colorFondo;
+	}
+}
+h1,h2{
+	font-family: $mainFonts; 
+	font-style: $Italic;
+	color:$colorTitulo;
+}	
+
+footer{
+	.bg-footer{
+	background-color:$colorNav;
+		.text-pie{
+			color: $colorA;	
+			font-family: $mainFonts; 
+			font-style: $Italic;
+		}
+	}
+}
+main{
+ 	img.zoom{
+ 		@media screen and (min-width:1024px){
+			&:hover{
+			transform: scale(1.1);
+				}
+ 		}
+ 	}
+} 

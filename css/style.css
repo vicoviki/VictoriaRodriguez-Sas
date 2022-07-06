@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Ubuntu:ital,wght@0,300;1,300&display=swap");
+body .bg-body {
+  background-color: #55828B !important; }
+
+h1, h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-style: italic;
+  color: #213DEA; }
+
+footer .bg-footer {
+  background-color: #03525B; }
+  footer .bg-footer .text-pie {
+    color: #87BBA2;
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic; }
+
+@media screen and (min-width: 1024px) {
+  main img.zoom:hover {
+    transform: scale(1.1); } }
+
+#botonera {
+  background-color: #03525B;
+  opacity: 0.9;
+  font-family: "Roboto Condensed", sans-serif; }
+  #botonera a {
+    color: #87BBA2;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    margin-left: 2rem; }
+    #botonera a:hover {
+      color: white; }
