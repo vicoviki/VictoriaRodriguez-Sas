@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Ubuntu:ital,wght@0,300;1,300&display=swap");
-body .bg-body {
+.bg-body {
   background-color: #55828B !important; }
 
 h1, h2 {
@@ -7,9 +7,9 @@ h1, h2 {
   font-style: italic;
   color: #213DEA; }
 
-footer .bg-footer {
+.bg-footer {
   background-color: #03525B; }
-  footer .bg-footer .text-pie {
+  .bg-footer .text-pie {
     color: #87BBA2;
     font-family: "Ubuntu", sans-serif;
     font-style: italic; }
